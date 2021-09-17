@@ -53,5 +53,8 @@ def bai9():
     for d in items:
         value.append(str(int(round(math.sqrt(2*c*float(d)/h)))))
     print (','.join(value))
-
+bai1()
+bai2()
+bai3()
+bai4()
 bai9()
