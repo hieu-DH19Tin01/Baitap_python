@@ -44,7 +44,6 @@ def bai4():
     print(t)
 
 # bài 9
-import math
 def bai9():
     import math
     c=50
@@ -53,5 +52,6 @@ def bai9():
     items=[x for x in input("Nhập giá trị của d: ").split(',')]
     for d in items:
         value.append(str(int(round(math.sqrt(2*c*float(d)/h)))))
-    print (','.join(value)
+    print (','.join(value))
 
+bai9()
